@@ -63,6 +63,10 @@ Source-overlap audit (normalized English source): **0** for train/validation, tr
 
 The raw archive contained 7,278 rows; 7,264 rows remained after cleaning and 14 duplicate pairs were removed. The committed JSONL files in [`data/`](data/) are exactly the splits used by the executed run and are reproduced deterministically by the notebook.
 
+### Sentence-length distribution
+
+![English and Assamese sentence-length distributions by split](results/eda_length_distribution.png)
+
 ---
 
 ## 3. Models Implemented
@@ -147,6 +151,16 @@ Corpus-level **BLEU** and **chrF** are reported on the same 100 test sentences. 
 
 All systems produced exactly one translation for every one of the 100 shared test rows. The final integrity gate in the notebook passes.
 
+### Result graphs
+
+**Translation quality and parameter trade-off**
+
+![BLEU by system and BLEU versus full parameter count](results/metric_comparison.png)
+
+**Training and validation loss**
+
+![Training and validation loss curves for the four systems](results/training_loss.png)
+
 ### Plots and metric files
 
 - [`results/metric_comparison.png`](results/metric_comparison.png) — BLEU bars and quality-versus-parameter-count view.
@@ -226,15 +240,33 @@ These systems are research prototypes. They must not be used as the sole transla
 
 ## 8. Sampling-Temperature Analysis
 
-The submitted run used **deterministic greedy decoding** (`num_beams = 1`, no sampling) for all four systems. This was chosen so that every system is evaluated under the same decoding policy and so that inference-time measurements are comparable. Because no stochastic decoding was performed, **no temperature sweep is reported and no temperature numbers are claimed**.
+### Decoding protocol used in the reported run
 
-The notebook and `src/mt_assignment.py` can be extended to sweep `T ∈ {0.0, 0.3, 0.7, 1.0}` for the decoder-only systems. The existing qualitative evidence already shows the relevant failure modes that a temperature sweep would quantify:
+| Setting | Value |
+|---|---|
+| Decoding strategy | Deterministic greedy decoding |
+| `do_sample` | `False` |
+| `num_beams` | `1` |
+| Maximum new tokens | `48` |
+| Test set | 100 sentences |
+| Temperature / top-p | Not applicable (no sampling) |
 
-- low-temperature/greedy decoding is more literal and repetitive for under-trained models,
-- higher temperatures would be expected to increase lexical diversity but also synonym drift, hallucinated preambles, and number/name changes,
-- the audit flags in `results/human_review_sheet.csv` provide a template for measuring those changes.
+The submitted run used **deterministic greedy decoding** for all four systems so that every model is evaluated under the same decoding policy and so that inference-time measurements remain comparable. Because no stochastic decoding was executed, **no empirical temperature table is reported and no temperature numbers are claimed**.
 
-Reporting a temperature table without running it would be fabrication, so this repository reports only what the executed notebook actually measured.
+### What a temperature sweep would measure
+
+For the decoder-only systems (TinyLlama and Gemma), the standard protocol is to re-decode the same fixed test set at `T ∈ {0.0, 0.3, 0.7, 1.0}` while keeping the prompt, maximum new-token budget, and test rows fixed, then recompute BLEU/chrF and latency. Expected behaviour, based on the qualitative outputs observed in this run:
+
+- `T = 0.0` (greedy) is deterministic and tends to be literal and repetitive for under-trained models.
+- `T = 0.3` is usually the best precision/diversity compromise.
+- `T = 0.7` increases lexical diversity but may introduce synonym drift and occasional extra clauses.
+- `T = 1.0` flattens the distribution and increases hallucinated preambles, repetition, and number/name changes.
+
+The audit flags in [`results/human_review_sheet.csv`](results/human_review_sheet.csv) already show the failure modes a sweep would quantify (repetition, number changes, low Assamese-script fraction, length outliers). Reporting a temperature table without running the sweep would be fabrication, so this repository reports only what the executed notebook actually measured.
+
+### How to reproduce the sweep
+
+The notebook and [`src/mt_assignment.py`](src/mt_assignment.py) can be extended by replacing the greedy `generate(...)` call in `infer_causal` with `do_sample=True, temperature=T, top_p=0.9`, then rerunning only the decoder-only evaluation cells for each temperature and saving a CSV of BLEU, chrF, latency, and flag counts.
 
 ---
 
