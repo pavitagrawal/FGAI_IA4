@@ -157,15 +157,10 @@ All systems produced exactly one translation for every one of the 100 shared tes
 
 ![BLEU by system and BLEU versus full parameter count](results/metric_comparison.png)
 
-**Training and validation loss**
-
-![Training and validation loss curves for the four systems](results/training_loss.png)
-
 ### Plots and metric files
 
 - [`results/metric_comparison.png`](results/metric_comparison.png) — BLEU bars and quality-versus-parameter-count view.
 - [`results/eda_length_distribution.png`](results/eda_length_distribution.png) — English and Assamese length distributions.
-- [`results/training_loss.png`](results/training_loss.png) — recorded training/validation loss curves.
 - [`results/summary.csv`](results/summary.csv) — machine-readable metric table.
 - [`results/summary.md`](results/summary.md) — Markdown metric table.
 - [`results/dataset_summary.csv`](results/dataset_summary.csv) — split statistics.
@@ -305,7 +300,6 @@ results/
   human_review_sheet.csv        # flagged rows for qualitative review
   dataset_summary.csv
   training_history.csv
-  training_loss.png
   metric_comparison.png
   eda_length_distribution.png
   run_manifest.json             # full environment + configuration + results manifest
