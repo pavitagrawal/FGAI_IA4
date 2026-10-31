@@ -1,0 +1,139 @@
+{
+  "config": {
+    "seed": 42,
+    "profile": "quick",
+    "max_train": 1000,
+    "max_validation": 100,
+    "max_test": 100,
+    "max_source_tokens": 64,
+    "max_target_tokens": 64,
+    "basic_vocab_size": 3000,
+    "basic_d_model": 256,
+    "basic_heads": 8,
+    "basic_layers": 4,
+    "basic_ffn": 1024,
+    "basic_dropout": 0.1,
+    "basic_epochs": 5,
+    "basic_batch_size": 64,
+    "basic_lr": 0.0003,
+    "pretrained_epochs": 1,
+    "pretrained_batch_size": 4,
+    "grad_accum_steps": 4,
+    "pretrained_lr": 5e-05,
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05,
+    "inference_batch_size": 1,
+    "num_beams": 1,
+    "max_new_tokens": 48,
+    "mt5_model": "google/mt5-small",
+    "llama_model": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    "gemma_model": "google/gemma-3-270m-it"
+  },
+  "python": "3.13.16",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "torch": "2.11.0+cu130",
+  "transformers": "4.57.6",
+  "cuda_available": true,
+  "device": "Tesla T4",
+  "dataset_manifest": {
+    "dataset": "ManyThings curated Tatoeba English-Assamese sentence pairs",
+    "source_url": "https://www.manythings.org/anki/asm-eng.zip",
+    "source_page": "https://www.manythings.org/anki/",
+    "license": "CC BY 2.0 FR (Tatoeba; retain per-sentence attribution)",
+    "archive_sha256": "7fb72adccf0e7c5cbac9e83554ae0929924e0d1d317fb693e8508992c4e090ae",
+    "seed": 42,
+    "profile": "quick",
+    "raw_rows": 7278,
+    "clean_rows_before_caps": 7264,
+    "dropped": {
+      "duplicate_pair": 14
+    },
+    "split_rows": {
+      "train": 1000,
+      "validation": 100,
+      "test": 100
+    },
+    "unique_sources": {
+      "train": 945,
+      "validation": 97,
+      "test": 93
+    },
+    "normalized_source_overlap": {
+      "train_validation": 0,
+      "train_test": 0,
+      "validation_test": 0
+    },
+    "target_assamese_char_fraction": {
+      "train": 1.0,
+      "validation": 0.9984756097560976,
+      "test": 1.0
+    }
+  },
+  "systems": [
+    {
+      "system": "basic_transformer",
+      "method": "from-scratch encoder-decoder",
+      "parameters": 9746360,
+      "trainable_parameters": 9746360,
+      "training_seconds": 5.47724131699988,
+      "inference_seconds": 2.1890717219998805,
+      "sentences_per_second": 45.68146351488316,
+      "BLEU": 0.0,
+      "chrF": 4.166234066563621,
+      "flag_counts": {
+        "length_outlier": 71
+      },
+      "test_rows": 100
+    },
+    {
+      "system": "mt5_small",
+      "method": "full fine-tuning encoder-decoder",
+      "parameters": 300176768,
+      "trainable_parameters": 300176768,
+      "training_seconds": 36.67149074000008,
+      "inference_seconds": 4.831922423999913,
+      "sentences_per_second": 20.695696500280114,
+      "BLEU": 0.06338766827094731,
+      "chrF": 0.00800743089587137,
+      "flag_counts": {
+        "low_assamese_script": 100,
+        "number_changed": 100,
+        "length_outlier": 2
+      },
+      "test_rows": 100
+    },
+    {
+      "system": "tinyllama_lora",
+      "method": "decoder-only NF4 QLoRA",
+      "parameters": 1106356224,
+      "trainable_parameters": 6307840,
+      "training_seconds": 107.99683678599968,
+      "inference_seconds": 287.8383639890003,
+      "sentences_per_second": 0.3474172053167363,
+      "BLEU": 0.6082669347202335,
+      "chrF": 9.178045438748672,
+      "flag_counts": {
+        "empty": 1,
+        "repetition": 2
+      },
+      "test_rows": 100
+    },
+    {
+      "system": "gemma_lora",
+      "method": "decoder-only LoRA",
+      "parameters": 269996672,
+      "trainable_parameters": 1898496,
+      "training_seconds": 49.119274871000016,
+      "inference_seconds": 89.52968510399978,
+      "sentences_per_second": 1.116947969646466,
+      "BLEU": 0.31320646432729077,
+      "chrF": 7.613876468192346,
+      "flag_counts": {
+        "repetition": 14,
+        "number_changed": 1
+      },
+      "test_rows": 100
+    }
+  ]
+}

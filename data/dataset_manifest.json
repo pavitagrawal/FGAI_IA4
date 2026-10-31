@@ -1,0 +1,34 @@
+{
+  "dataset": "ManyThings curated Tatoeba English-Assamese sentence pairs",
+  "source_url": "https://www.manythings.org/anki/asm-eng.zip",
+  "source_page": "https://www.manythings.org/anki/",
+  "license": "CC BY 2.0 FR (Tatoeba; retain per-sentence attribution)",
+  "archive_sha256": "7fb72adccf0e7c5cbac9e83554ae0929924e0d1d317fb693e8508992c4e090ae",
+  "seed": 42,
+  "profile": "quick",
+  "raw_rows": 7278,
+  "clean_rows_before_caps": 7264,
+  "dropped": {
+    "duplicate_pair": 14
+  },
+  "split_rows": {
+    "train": 1000,
+    "validation": 100,
+    "test": 100
+  },
+  "unique_sources": {
+    "train": 945,
+    "validation": 97,
+    "test": 93
+  },
+  "normalized_source_overlap": {
+    "train_validation": 0,
+    "train_test": 0,
+    "validation_test": 0
+  },
+  "target_assamese_char_fraction": {
+    "train": 1.0,
+    "validation": 0.9984756097560976,
+    "test": 1.0
+  }
+}

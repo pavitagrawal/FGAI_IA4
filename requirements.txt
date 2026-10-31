@@ -1,0 +1,17 @@
+torch>=2.2
+transformers>=4.53,<5
+datasets>=2.19
+accelerate>=0.30
+peft>=0.12
+bitsandbytes>=0.43; platform_system != "Darwin"
+sentencepiece>=0.2
+sacrebleu>=2.4
+pandas>=2.1
+numpy>=1.26
+matplotlib>=3.8
+seaborn>=0.13
+tqdm>=4.66
+psutil>=5.9
+pytest>=8.0
+jupyter>=1.0
+

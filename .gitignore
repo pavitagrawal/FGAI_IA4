@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Model/Hugging Face caches
+.hf/
+artifacts/checkpoints/
+artifacts/cache/
+
+# Raw downloads (the bundled archive and committed splits are kept)
+data/raw/
+
+# OS/editor
+.DS_Store
+Thumbs.db

@@ -1,0 +1,16 @@
+{
+  "system": "gemma_lora",
+  "method": "decoder-only LoRA",
+  "parameters": 269996672,
+  "trainable_parameters": 1898496,
+  "training_seconds": 49.119274871000016,
+  "inference_seconds": 89.52968510399978,
+  "sentences_per_second": 1.116947969646466,
+  "BLEU": 0.31320646432729077,
+  "chrF": 7.613876468192346,
+  "flag_counts": {
+    "repetition": 14,
+    "number_changed": 1
+  },
+  "test_rows": 100
+}

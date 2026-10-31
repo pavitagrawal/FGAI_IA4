@@ -1,0 +1,4 @@
+split,pairs,unique_sources,median_source_words,median_target_words,assamese_char_fraction
+train,1000,945,5.0,5.0,1.0
+validation,100,97,5.0,4.0,0.9984756097560976
+test,100,93,5.0,5.0,1.0

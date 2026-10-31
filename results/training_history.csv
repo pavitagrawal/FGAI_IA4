@@ -1,0 +1,9 @@
+system,epoch,train_loss,validation_loss
+basic_transformer,1,7.672554,7.119095
+basic_transformer,2,6.581685,6.433465
+basic_transformer,3,6.120901,6.198187
+basic_transformer,4,5.952081,6.1275
+basic_transformer,5,5.892318,6.112306
+mt5_small,1,24.937432,14.704627
+tinyllama_lora,1,1.60367,
+gemma_lora,1,5.542613,

@@ -1,0 +1,191 @@
+model,row_id,source,reference,prediction,flags
+basic_transformer,test-00001,Have you seen something?,তুমি কিবা দেখিছা নেকি?,টমে।,length_outlier
+basic_transformer,test-00003,I already told my friends that I was going.,মই মোৰ লগৰবোৰক যাম বুলি কৈ দিলোঁৱেই।,টমে।,length_outlier
+basic_transformer,test-00004,Go out and look at the blue sky.,ওলাই গৈ নীলা আকাশখনলৈ চোৱাঁ।,টমে।,length_outlier
+basic_transformer,test-00005,I need to talk to Tom right away.,মই এতিয়াই টমৰ লগত কথা পাতিব লাগিব।,টমে।,length_outlier
+basic_transformer,test-00007,I brush my teeth every morning.,মই প্ৰতিপুৱাই দাঁত মাজোঁ।,টমে।,length_outlier
+basic_transformer,test-00009,I have to get back home and study for a test.,মই ঘৰলৈ উভতি গৈ পৰীক্ষাৰ বাবে পঢ়িব লাগিব।,টমে।,length_outlier
+basic_transformer,test-00010,Tom is a staunch conservative.,টম্ এজন আপোচহীন ৰক্ষণশীল মানুহ।,টমে।,length_outlier
+basic_transformer,test-00012,Tom swept the kitchen floor while Mary washed the dishes.,মেৰীয়ে বাচন-বৰ্তন ধুই থাকোঁতে টমে পাকঘৰৰ মজিয়াখন সাৰিলে।,টমে।,length_outlier
+basic_transformer,test-00014,Add sugar to the tea.,চাহত চেনি দিয়ক।,টমে।,length_outlier
+basic_transformer,test-00015,We were all a little tired.,আমি সকলোৱে অলপ ভাগৰুৱা হৈ পৰিছিলোঁ।,টমে।,length_outlier
+basic_transformer,test-00016,They went to Tottori.,তেওঁলোক ট'ট'ৰীলৈ গৈছে।,টমে।,length_outlier
+basic_transformer,test-00017,Don't expect miracles.,চমৎকাৰৰ আশা নকৰিব।,টমে।,length_outlier
+basic_transformer,test-00018,"If you can't take it, give up and do what I, your older sister, asked of you.","সহিব নোৱাৰিলে হাৰ মানি মই, তোমাৰ বাইদেৱে তোমাৰ পৰা যি বিচাৰিছিলোঁ তাকেই কৰাঁ।",টমে।,length_outlier
+basic_transformer,test-00019,I've been here for three weeks now.,মই ইয়াত থকা তিনি সপ্তাহ হ’ল।,টমে।,length_outlier
+basic_transformer,test-00021,Add sugar to the tea.,চাহত চেনি ঢালক।,টমে।,length_outlier
+basic_transformer,test-00022,Does anyone know how Tom will be going to Australia?,কোনোবাই জানেনে— টম্ কেনেকৈ অষ্ট্ৰেলিয়ালৈ যাব?,টমে।,length_outlier
+basic_transformer,test-00023,Tom may use my bicycle if he wants to.,টমে ইচ্ছা কৰিলে মোৰ চাইকেলখন ব্যৱহাৰ কৰিব পাৰে।,টমে।,length_outlier
+basic_transformer,test-00026,Go back to your seat.,নিজৰ ছীটত বহাঁগৈ।,টমে।,length_outlier
+basic_transformer,test-00029,Do you know what to bring?,কি আনিব লাগে— জানানে?,টমে।,length_outlier
+basic_transformer,test-00030,Where are our suitcases?,তোমাৰ ছ্যুটকে’ছকেইটা ক’ত?,টমে।,length_outlier
+basic_transformer,test-00032,Tom pushed the gate open.,টমে গে’টখন ঠেলি খুলিলে।,টমে।,length_outlier
+basic_transformer,test-00033,"You do believe me, don't you?","তুমি মোক বিশ্বাস কৰা, নহয় জানো?",টমে।,length_outlier
+basic_transformer,test-00035,We're very happy for you.,আমি তোমাক লৈ বৰ আনন্দিত।,টমে।,length_outlier
+basic_transformer,test-00037,Go out and look at the blue sky.,ওলাই গৈ নীলা আকাশখনলৈ চাওক।,টমে।,length_outlier
+basic_transformer,test-00039,I'd like to get off at Fifth Avenue.,মই পঞ্চম এভিন্যুত নামি যাব বিচাৰো৷,টমে।,length_outlier
+basic_transformer,test-00041,Tom was speaking to some neighbors.,টমে কেইজনমান ওচৰ-চুবুৰীয়াৰ লগত কথা পাতি আছিল।,টমে।,length_outlier
+basic_transformer,test-00042,Tom didn't brush his teeth this morning.,আজি ৰাতিপুৱা টমে দাঁত মজা নাই।,টমে।,length_outlier
+basic_transformer,test-00043,Why am I still alive?,মই এতিয়ালৈকে কিয় জীয়াই আছোঁ?,টমে।,length_outlier
+basic_transformer,test-00044,Add sugar to the tea.,চাহত চেনি ঢালাঁ।,টমে।,length_outlier
+basic_transformer,test-00046,I still think it's good.,মই এতিয়াও ভাবো যে এইটো ভাল৷,টমে।,length_outlier
+basic_transformer,test-00047,A fierce battle was fought here.,ইয়াত এখন সহিংস যুদ্ধ হৈছিল।,টমে।,length_outlier
+basic_transformer,test-00048,Are you following me?,তুমি মোক ফ’ল’ কৰি আছানে?,টমে।,length_outlier
+basic_transformer,test-00049,Tom has always been spoiled.,টম্ আগৰ পৰাই নষ্ট আছিল।,টমে।,length_outlier
+basic_transformer,test-00052,You don't need to know how it works.,কেনেকৈ কাম কৰে সেইটো তুমি জানিব নালাগে।,টমে।,length_outlier
+basic_transformer,test-00053,Tom is my best student.,টম্ মোৰ সবাতোকৈ ভাল ছাত্ৰ।,টমে।,length_outlier
+basic_transformer,test-00054,What have you done with all the stuff that was in this room?,তুমি এই ৰুমটোত থকা সকলোবোৰ বস্তুৰে কি কৰিলা?,টমে।,length_outlier
+basic_transformer,test-00055,I had no idea what was going to happen.,কি হ’বলৈ গৈ আছিল— একো ধৰিব পৰা নাছিলোঁ।,টমে।,length_outlier
+basic_transformer,test-00057,Add sugar to the tea.,চাহত চেনি দিয়াঁ।,টমে।,length_outlier
+basic_transformer,test-00058,Tom was still in Boston this time last year.,যোৱাবছৰ এইখিনি সময়ত টম্ ব’ষ্টনতেই আছিল।,টমে।,length_outlier
+basic_transformer,test-00059,I received this fax from Tom.,মই টমৰ পৰা এইটো ফেক্স পাইছোঁ।,টমে।,length_outlier
+basic_transformer,test-00061,The sun was about to set.,বেলিটো মাৰ যাবই লৈছিল।,টমে।,length_outlier
+basic_transformer,test-00062,I knew my leg was broken.,মোৰ ভৰিখন ভাগিছে বুলি জানিছিলোঁ।,টমে।,length_outlier
+basic_transformer,test-00063,Listen carefully and do exactly what I tell you.,মন দি শুনা আৰু মই কোৱাৰ দৰেই কৰিবাঁ।,টমে।,length_outlier
+basic_transformer,test-00065,Tom took his place at the table.,টমে টেবুলত তাৰ জেগা ল’লে।,টমে।,length_outlier
+basic_transformer,test-00066,I have no problem with Tom.,টমৰ লগত মোৰ কোনো সমস্যা নাই।,টমে।,length_outlier
+basic_transformer,test-00067,Tom works us too hard.,টমে বৰ কষ্ট কৰে।,টমে।,length_outlier
+basic_transformer,test-00068,I didn't know what Tom was going to do.,মই নাজানিছিলোঁ টমে কি কৰিব গৈ আছিল।,টমে।,length_outlier
+basic_transformer,test-00069,Tom usually sits in the back of the classroom.,টম্ সচৰাচৰ ক্লাছৰুমৰ পিছফালে বহে।,টমে।,length_outlier
+basic_transformer,test-00070,Where did you get that hat?,আপুনি সেই টুপীটো ক’ত পালে?,টমে।,length_outlier
+basic_transformer,test-00071,Tom usually sits in the back of the classroom.,টম্ সচৰাচৰ শ্ৰেণীকোঠাৰ পিছফালে বহে।,টমে।,length_outlier
+basic_transformer,test-00072,It's awfully cold this evening.,আজি সন্ধ্যা বিৰাট ঠাণ্ডা দিছে।,টমে।,length_outlier
+basic_transformer,test-00073,You should pay your debts.,আপুনি নিজৰ ঋণ আদায় কৰা উচিত।,টমে।,length_outlier
+basic_transformer,test-00075,You're much too young.,তোমাৰ বয়স খুবেই কম।,টমে।,length_outlier
+basic_transformer,test-00077,Tom was the youngest child in the family.,টম্ পৰিয়ালটোৰ আটাইতকৈ সৰু ল’ৰা আছিল।,টমে।,length_outlier
+basic_transformer,test-00078,Everyone wants to beat us.,সকলোৱে আমাক হৰুৱাব খোজে।,টমে।,length_outlier
+basic_transformer,test-00079,We're not planning to do that anytime soon.,আমি সেয়া এতিয়াই কৰিম বুলি ভবা নাই।,টমে।,length_outlier
+basic_transformer,test-00080,There are some leftovers in the fridge.,ফ্ৰীজত অলপ বাকী ৰৈ যোৱা খানা আছে।,টমে।,length_outlier
+basic_transformer,test-00081,Tom was able to answer all the questions.,টমে সকলো প্ৰশ্নৰ উত্তৰ দিব পাৰিছিল।,টমে।,length_outlier
+basic_transformer,test-00083,I'm proud of my father.,মই মোৰ দেউতাক লৈ গৌৰৱ কৰোঁ।,টমে।,length_outlier
+basic_transformer,test-00084,Flip to the back of the book for the index.,পৃষ্ঠাসূচীৰ বাবে কিতাপখন লুটিয়াই পিছফালে যাওক।,টমে।,length_outlier
+basic_transformer,test-00085,Tom told me that he wasn't afraid of ghosts.,টমে মোক ক’লে যে সি ভূতক ভয় নকৰে।,টমে।,length_outlier
+basic_transformer,test-00086,"If I were you, I'd buy it.",মই তোমাৰ জেগাত হ’লে কিনিলোঁহেঁতেন।,টমে।,length_outlier
+basic_transformer,test-00087,What have you done with all the stuff that was in this room?,তই এই ৰুমটোত থকা সকলোবোৰ বস্তুৰে কি কৰিলি?,টমে।,length_outlier
+basic_transformer,test-00088,Mary doesn't have time to do the laundry.,মেৰীৰ কাপোৰ ধুবলৈ সময় নাই।,টমে।,length_outlier
+basic_transformer,test-00091,Have you seen something?,আপুনি কিবা দেখিছে নেকি?,টমে।,length_outlier
+basic_transformer,test-00092,Will you take me there?,আপুনি মোক তালৈকে লৈ যাবনে?,টমে।,length_outlier
+basic_transformer,test-00093,How do you like Australia?,তোমাৰ অষ্ট্ৰেলিয়া কেনে লাগে?,টমে।,length_outlier
+basic_transformer,test-00096,What do you want now?,এতিয়া আপুনি কি বিচাৰে?,টমে।,length_outlier
+basic_transformer,test-00097,It hasn't rained yet this month.,এই মাহটোত এতিয়ালৈকে বৰষুণ দিয়া নাই।,টমে।,length_outlier
+basic_transformer,test-00098,Tom won't do the same thing.,টমে একে কাম নকৰে।,টমে।,length_outlier
+basic_transformer,test-00099,"It is difficult for us to get along with her, because she is hard to please.","তাইৰ লগত মিলা-প্ৰীতিৰে থকাটো আমাৰ বাবে টান, কাৰণ তাইক সন্তুষ্ট কৰাটো টান।",টমে।,length_outlier
+mt5_small,test-00000,Don't smoke here.,ইয়াত চিগাৰেট নাখাব।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00001,Have you seen something?,তুমি কিবা দেখিছা নেকি?,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00002,Don't drop it.,নেপেলাবাঁ।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00003,I already told my friends that I was going.,মই মোৰ লগৰবোৰক যাম বুলি কৈ দিলোঁৱেই।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00004,Go out and look at the blue sky.,ওলাই গৈ নীলা আকাশখনলৈ চোৱাঁ।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00005,I need to talk to Tom right away.,মই এতিয়াই টমৰ লগত কথা পাতিব লাগিব।,<extra_id_0>.,"low_assamese_script, number_changed"
+mt5_small,test-00006,That was cool.,সেইটো মজা আছিল।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00007,I brush my teeth every morning.,মই প্ৰতিপুৱাই দাঁত মাজোঁ।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00008,Don't say that.,তেনেকৈ নক’ব।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00009,I have to get back home and study for a test.,মই ঘৰলৈ উভতি গৈ পৰীক্ষাৰ বাবে পঢ়িব লাগিব।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00010,Tom is a staunch conservative.,টম্ এজন আপোচহীন ৰক্ষণশীল মানুহ।,<extra_id_0> -,"low_assamese_script, number_changed"
+mt5_small,test-00011,Don't apologize.,ক্ষমা নুখুজিব।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00012,Tom swept the kitchen floor while Mary washed the dishes.,মেৰীয়ে বাচন-বৰ্তন ধুই থাকোঁতে টমে পাকঘৰৰ মজিয়াখন সাৰিলে।,<extra_id_0>.,"low_assamese_script, number_changed"
+mt5_small,test-00013,Isn't it black?,ক'লা নহয়নে?,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00014,Add sugar to the tea.,চাহত চেনি দিয়ক।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00015,We were all a little tired.,আমি সকলোৱে অলপ ভাগৰুৱা হৈ পৰিছিলোঁ।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00016,They went to Tottori.,তেওঁলোক ট'ট'ৰীলৈ গৈছে।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00017,Don't expect miracles.,চমৎকাৰৰ আশা নকৰিব।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00018,"If you can't take it, give up and do what I, your older sister, asked of you.","সহিব নোৱাৰিলে হাৰ মানি মই, তোমাৰ বাইদেৱে তোমাৰ পৰা যি বিচাৰিছিলোঁ তাকেই কৰাঁ।",<extra_id_0>.,"low_assamese_script, number_changed, length_outlier"
+mt5_small,test-00019,I've been here for three weeks now.,মই ইয়াত থকা তিনি সপ্তাহ হ’ল।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00020,I don't steal.,মই চুৰ নকৰোঁ।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00021,Add sugar to the tea.,চাহত চেনি ঢালক।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00022,Does anyone know how Tom will be going to Australia?,কোনোবাই জানেনে— টম্ কেনেকৈ অষ্ট্ৰেলিয়ালৈ যাব?,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00023,Tom may use my bicycle if he wants to.,টমে ইচ্ছা কৰিলে মোৰ চাইকেলখন ব্যৱহাৰ কৰিব পাৰে।,<extra_id_0> -,"low_assamese_script, number_changed"
+mt5_small,test-00024,Do you have a horse?,আপোনাৰ ঘোঁৰা আছেনে?,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00025,Don't deceive Tom.,টমক নঠগিবাঁ।,<extra_id_0>.,"low_assamese_script, number_changed"
+mt5_small,test-00026,Go back to your seat.,নিজৰ ছীটত বহাঁগৈ।,<extra_id_0>.,"low_assamese_script, number_changed"
+mt5_small,test-00027,Don't eat that.,সেইটো নাখাবাঁ।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00028,Keep your cool.,শান্ত হৈ থাকিবাঁ।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00029,Do you know what to bring?,কি আনিব লাগে— জানানে?,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00030,Where are our suitcases?,তোমাৰ ছ্যুটকে’ছকেইটা ক’ত?,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00031,Don't get greedy.,লোভ নকৰিব।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00032,Tom pushed the gate open.,টমে গে’টখন ঠেলি খুলিলে।,<extra_id_0>.,"low_assamese_script, number_changed"
+mt5_small,test-00033,"You do believe me, don't you?","তুমি মোক বিশ্বাস কৰা, নহয় জানো?",<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00034,Don't you swim?,তই নাসাঁতোৰনে?,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00035,We're very happy for you.,আমি তোমাক লৈ বৰ আনন্দিত।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00036,Don't run here.,ইয়াত দৌৰা-দৌৰি নকৰিব।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00037,Go out and look at the blue sky.,ওলাই গৈ নীলা আকাশখনলৈ চাওক।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00038,Love will survive.,প্ৰেম বাচি থাকিব।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00039,I'd like to get off at Fifth Avenue.,মই পঞ্চম এভিন্যুত নামি যাব বিচাৰো৷,<extra_id_0>.,"low_assamese_script, number_changed"
+mt5_small,test-00040,Don't fall asleep.,টোপনি গুচি নাযাব।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00041,Tom was speaking to some neighbors.,টমে কেইজনমান ওচৰ-চুবুৰীয়াৰ লগত কথা পাতি আছিল।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00042,Tom didn't brush his teeth this morning.,আজি ৰাতিপুৱা টমে দাঁত মজা নাই।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00043,Why am I still alive?,মই এতিয়ালৈকে কিয় জীয়াই আছোঁ?,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00044,Add sugar to the tea.,চাহত চেনি ঢালাঁ।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00045,Don't sass me.,মোৰ আগত দম্ভালি নামাৰিবাঁ।,<extra_id_0>.,"low_assamese_script, number_changed"
+mt5_small,test-00046,I still think it's good.,মই এতিয়াও ভাবো যে এইটো ভাল৷,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00047,A fierce battle was fought here.,ইয়াত এখন সহিংস যুদ্ধ হৈছিল।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00048,Are you following me?,তুমি মোক ফ’ল’ কৰি আছানে?,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00049,Tom has always been spoiled.,টম্ আগৰ পৰাই নষ্ট আছিল।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00050,I raise orchids.,মই ৰাস্না গজাইছোঁ।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00051,Mary put on makeup.,মেৰীয়ে মে’কাপ কৰিলে।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00052,You don't need to know how it works.,কেনেকৈ কাম কৰে সেইটো তুমি জানিব নালাগে।,<extra_id_0>.,"low_assamese_script, number_changed"
+mt5_small,test-00053,Tom is my best student.,টম্ মোৰ সবাতোকৈ ভাল ছাত্ৰ।,<extra_id_0>.,"low_assamese_script, number_changed"
+mt5_small,test-00054,What have you done with all the stuff that was in this room?,তুমি এই ৰুমটোত থকা সকলোবোৰ বস্তুৰে কি কৰিলা?,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00055,I had no idea what was going to happen.,কি হ’বলৈ গৈ আছিল— একো ধৰিব পৰা নাছিলোঁ।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00056,"Quiet, please.",চুপ থাককচোন।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00057,Add sugar to the tea.,চাহত চেনি দিয়াঁ।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00058,Tom was still in Boston this time last year.,যোৱাবছৰ এইখিনি সময়ত টম্ ব’ষ্টনতেই আছিল।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00059,I received this fax from Tom.,মই টমৰ পৰা এইটো ফেক্স পাইছোঁ।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00060,Wonderful!,অদ্ভুত!,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00061,The sun was about to set.,বেলিটো মাৰ যাবই লৈছিল।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00062,I knew my leg was broken.,মোৰ ভৰিখন ভাগিছে বুলি জানিছিলোঁ।,<extra_id_0> -,"low_assamese_script, number_changed"
+mt5_small,test-00063,Listen carefully and do exactly what I tell you.,মন দি শুনা আৰু মই কোৱাৰ দৰেই কৰিবাঁ।,<extra_id_0>.,"low_assamese_script, number_changed"
+mt5_small,test-00064,Don't be ridiculous!,হাস্যকৰ নহ’ব!,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00065,Tom took his place at the table.,টমে টেবুলত তাৰ জেগা ল’লে।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00066,I have no problem with Tom.,টমৰ লগত মোৰ কোনো সমস্যা নাই।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00067,Tom works us too hard.,টমে বৰ কষ্ট কৰে।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00068,I didn't know what Tom was going to do.,মই নাজানিছিলোঁ টমে কি কৰিব গৈ আছিল।,<extra_id_0>.,"low_assamese_script, number_changed"
+mt5_small,test-00069,Tom usually sits in the back of the classroom.,টম্ সচৰাচৰ ক্লাছৰুমৰ পিছফালে বহে।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00070,Where did you get that hat?,আপুনি সেই টুপীটো ক’ত পালে?,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00071,Tom usually sits in the back of the classroom.,টম্ সচৰাচৰ শ্ৰেণীকোঠাৰ পিছফালে বহে।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00072,It's awfully cold this evening.,আজি সন্ধ্যা বিৰাট ঠাণ্ডা দিছে।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00073,You should pay your debts.,আপুনি নিজৰ ঋণ আদায় কৰা উচিত।,<extra_id_0>.,"low_assamese_script, number_changed"
+mt5_small,test-00074,Don't look down.,তলফালে নাচাবি।,<extra_id_0>.,"low_assamese_script, number_changed"
+mt5_small,test-00075,You're much too young.,তোমাৰ বয়স খুবেই কম।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00076,I knew you were Tom.,তুমি টমেই আছিলা বুলি মই জানিছিলোঁ।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00077,Tom was the youngest child in the family.,টম্ পৰিয়ালটোৰ আটাইতকৈ সৰু ল’ৰা আছিল।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00078,Everyone wants to beat us.,সকলোৱে আমাক হৰুৱাব খোজে।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00079,We're not planning to do that anytime soon.,আমি সেয়া এতিয়াই কৰিম বুলি ভবা নাই।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00080,There are some leftovers in the fridge.,ফ্ৰীজত অলপ বাকী ৰৈ যোৱা খানা আছে।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00081,Tom was able to answer all the questions.,টমে সকলো প্ৰশ্নৰ উত্তৰ দিব পাৰিছিল।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00082,I'm on leave.,মই ছুটীত আছোঁ।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00083,I'm proud of my father.,মই মোৰ দেউতাক লৈ গৌৰৱ কৰোঁ।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00084,Flip to the back of the book for the index.,পৃষ্ঠাসূচীৰ বাবে কিতাপখন লুটিয়াই পিছফালে যাওক।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00085,Tom told me that he wasn't afraid of ghosts.,টমে মোক ক’লে যে সি ভূতক ভয় নকৰে।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00086,"If I were you, I'd buy it.",মই তোমাৰ জেগাত হ’লে কিনিলোঁহেঁতেন।,<extra_id_0>.,"low_assamese_script, number_changed"
+mt5_small,test-00087,What have you done with all the stuff that was in this room?,তই এই ৰুমটোত থকা সকলোবোৰ বস্তুৰে কি কৰিলি?,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00088,Mary doesn't have time to do the laundry.,মেৰীৰ কাপোৰ ধুবলৈ সময় নাই।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00089,I wanted kids.,মই সন্তান বিচাৰিছিলোঁ।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00090,Don't get involved.,লিপ্ত নহ’ব।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00091,Have you seen something?,আপুনি কিবা দেখিছে নেকি?,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00092,Will you take me there?,আপুনি মোক তালৈকে লৈ যাবনে?,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00093,How do you like Australia?,তোমাৰ অষ্ট্ৰেলিয়া কেনে লাগে?,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00094,Don't hurt her.,তাইক দুঃখ নিদিব।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00095,Wait!,ৰ’বাঁ!,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00096,What do you want now?,এতিয়া আপুনি কি বিচাৰে?,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00097,It hasn't rained yet this month.,এই মাহটোত এতিয়ালৈকে বৰষুণ দিয়া নাই।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00098,Tom won't do the same thing.,টমে একে কাম নকৰে।,<extra_id_0>,"low_assamese_script, number_changed"
+mt5_small,test-00099,"It is difficult for us to get along with her, because she is hard to please.","তাইৰ লগত মিলা-প্ৰীতিৰে থকাটো আমাৰ বাবে টান, কাৰণ তাইক সন্তুষ্ট কৰাটো টান।",<extra_id_0> -,"low_assamese_script, number_changed, length_outlier"
+tinyllama_lora,test-00018,"If you can't take it, give up and do what I, your older sister, asked of you.","সহিব নোৱাৰিলে হাৰ মানি মই, তোমাৰ বাইদেৱে তোমাৰ পৰা যি বিচাৰিছিলোঁ তাকেই কৰাঁ।",,empty
+tinyllama_lora,test-00055,I had no idea what was going to happen.,কি হ’বলৈ গৈ আছিল— একো ধৰিব পৰা নাছিলোঁ।,মোৰ কৰি নাই নাই নাই নাই নাই নাই,repetition
+tinyllama_lora,test-00099,"It is difficult for us to get along with her, because she is hard to please.","তাইৰ লগত মিলা-প্ৰীতিৰে থকাটো আমাৰ বাবে টান, কাৰণ তাইক সন্তুষ্ট কৰাটো টান।","ese
+ আমি আমাকে আমাকে আমাকে আমাকে আমাকে",repetition
+gemma_lora,test-00009,I have to get back home and study for a test.,মই ঘৰলৈ উভতি গৈ পৰীক্ষাৰ বাবে পঢ়িব লাগিব।,আমিৰোৰ পৰা তেতো পাৰে আৰু লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ ল,repetition
+gemma_lora,test-00010,Tom is a staunch conservative.,টম্ এজন আপোচহীন ৰক্ষণশীল মানুহ।,টমে কৰা লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ ল,repetition
+gemma_lora,test-00019,I've been here for three weeks now.,মই ইয়াত থকা তিনি সপ্তাহ হ’ল।,আমিৰ পৰা ৩ই semanas এখন।,number_changed
+gemma_lora,test-00039,I'd like to get off at Fifth Avenue.,মই পঞ্চম এভিন্যুত নামি যাব বিচাৰো৷,আমিৰ পৰা তেতোটোৰ পৰা তেতোটোৰ পৰা তেতোটোৰ পৰা তেতোটোৰ পৰা তেতোটোৰ পৰা তেতোটোৰ পৰা তেতোটোৰ পৰা তেতো,repetition
+gemma_lora,test-00047,A fierce battle was fought here.,ইয়াত এখন সহিংস যুদ্ধ হৈছিল।,আৰৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ ল,repetition
+gemma_lora,test-00053,Tom is my best student.,টম্ মোৰ সবাতোকৈ ভাল ছাত্ৰ।,টমে আমিৰ প্ৰৰীৰ প্ৰৰীৰ প্ৰৰীৰ প্ৰৰীৰ প্ৰৰীৰ প্ৰৰীৰ প্ৰৰীৰ প্ৰৰীৰ প্ৰৰীৰ প্ৰৰীৰ প্ৰৰীৰ,repetition
+gemma_lora,test-00054,What have you done with all the stuff that was in this room?,তুমি এই ৰুমটোত থকা সকলোবোৰ বস্তুৰে কি কৰিলা?,এই room-এ ক’ম ক’ম ক’ম ক’ম ক’ম ক’ম ক’ম ক’ম ক’ম ক’ম ক’ম ক’ম ক’ম ক’ম ক’,repetition
+gemma_lora,test-00055,I had no idea what was going to happen.,কি হ’বলৈ গৈ আছিল— একো ধৰিব পৰা নাছিলোঁ।,মই তোমই তোমই তোমই তোমই তোমই তোমই তোমই তোমই তোমই তোমই তোমই তোমই তোমই তোমই তোমই তো,repetition
+gemma_lora,test-00063,Listen carefully and do exactly what I tell you.,মন দি শুনা আৰু মই কোৱাৰ দৰেই কৰিবাঁ।,মই লৈকৈয়াৰৈ লৈকৈয়াৰৈ লৈকৈয়াৰৈ লৈকৈয়াৰৈ লৈকৈয়াৰৈ লৈকৈয়াৰৈ লৈকৈ,repetition
+gemma_lora,test-00065,Tom took his place at the table.,টমে টেবুলত তাৰ জেগা ল’লে।,টমে বৰাৰ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ,repetition
+gemma_lora,test-00066,I have no problem with Tom.,টমৰ লগত মোৰ কোনো সমস্যা নাই।,মই তোমই তোমই তোমই তোমই তোমই তোমই তোমই তোমই তোমই তোমই তোমই তোমই তোমই তোমই তোমই তো,repetition
+gemma_lora,test-00068,I didn't know what Tom was going to do.,মই নাজানিছিলোঁ টমে কি কৰিব গৈ আছিল।,টমে তোমই তোমই তোমই তোমই তোমই তোমই তোমই তোমই তোমই তোমই তোমই তোমই তোমই তোমই তোমই তো,repetition
+gemma_lora,test-00069,Tom usually sits in the back of the classroom.,টম্ সচৰাচৰ ক্লাছৰুমৰ পিছফালে বহে।,টমে কৰাৰ পিছত বৰিবলৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ ল,repetition
+gemma_lora,test-00071,Tom usually sits in the back of the classroom.,টম্ সচৰাচৰ শ্ৰেণীকোঠাৰ পিছফালে বহে।,টমে কৰাৰ পিছত বৰিবলৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ লৈ ল,repetition
+gemma_lora,test-00087,What have you done with all the stuff that was in this room?,তই এই ৰুমটোত থকা সকলোবোৰ বস্তুৰে কি কৰিলি?,এই room-এ ক’ম ক’ম ক’ম ক’ম ক’ম ক’ম ক’ম ক’ম ক’ম ক’ম ক’ম ক’ম ক’ম ক’ম ক’,repetition

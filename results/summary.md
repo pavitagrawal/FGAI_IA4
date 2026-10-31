@@ -1,0 +1,6 @@
+| system            | method                           |   parameters |   trainable_parameters |   training_seconds |   inference_seconds |   sentences_per_second |      BLEU |       chrF |   test_rows |
+|:------------------|:---------------------------------|-------------:|-----------------------:|-------------------:|--------------------:|-----------------------:|----------:|-----------:|------------:|
+| tinyllama_lora    | decoder-only NF4 QLoRA           |   1106356224 |                6307840 |          107.997   |           287.838   |               0.347417 | 0.608267  | 9.17805    |         100 |
+| gemma_lora        | decoder-only LoRA                |    269996672 |                1898496 |           49.1193  |            89.5297  |               1.11695  | 0.313206  | 7.61388    |         100 |
+| mt5_small         | full fine-tuning encoder-decoder |    300176768 |              300176768 |           36.6715  |             4.83192 |              20.6957   | 0.0633877 | 0.00800743 |         100 |
+| basic_transformer | from-scratch encoder-decoder     |      9746360 |                9746360 |            5.47724 |             2.18907 |              45.6815   | 0         | 4.16623    |         100 |
